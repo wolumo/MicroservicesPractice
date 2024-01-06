@@ -11,6 +11,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization;
+using MongoDB.Bson.Serialization.Serializers;
 
 namespace Play.Catalog.Service
 {
@@ -27,7 +30,13 @@ namespace Play.Catalog.Service
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddControllers();
+            BsonSerializer.RegisterSerializer(new GuidSerializer(BsonType.String));
+            BsonSerializer.RegisterSerializer(new DateTimeOffsetSerializer(BsonType.String)); // To have an Id an Item Atributtes Correctly in MongoDb extencion. 
+
+            services.AddControllers(options =>
+            {
+                options.SuppressAsyncSuffixInActionNames = false; //Do This to don't have problems with the controller supress Async methods.
+            });
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Play.Catalog.Service", Version = "v1" });
