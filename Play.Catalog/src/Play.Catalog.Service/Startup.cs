@@ -14,11 +14,17 @@ using Microsoft.OpenApi.Models;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Serializers;
+using MongoDB.Driver;
+using Play.Catalog.Service.Repositories;
+using Play.Catalog.Service.Settings;
 
 namespace Play.Catalog.Service
 {
     public class Startup
     {
+        private ServiceSettings ServiceSettings; 
+
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -33,6 +39,17 @@ namespace Play.Catalog.Service
             BsonSerializer.RegisterSerializer(new GuidSerializer(BsonType.String));
             BsonSerializer.RegisterSerializer(new DateTimeOffsetSerializer(BsonType.String)); // To have an Id an Item Atributtes Correctly in MongoDb extencion. 
 
+            ServiceSettings = Configuration.GetSection(nameof(ServiceSettings)).Get<ServiceSettings>();
+
+            services.AddSingleton(serviceProvider => {  //Configuring Singleton Services to use Dependency Injection. 
+                var mongoDbSettings = Configuration.GetSection(nameof(MongoDbSettings)).Get<MongoDbSettings>();
+                var mongoClient = new MongoClient(mongoDbSettings.ConnectionString); 
+                return mongoClient.GetDatabase(ServiceSettings.ServiceName);
+
+            });
+
+            services.AddSingleton<IItemsRepository, ItemsRepository>();
+            
             services.AddControllers(options =>
             {
                 options.SuppressAsyncSuffixInActionNames = false; //Do This to don't have problems with the controller supress Async methods.
