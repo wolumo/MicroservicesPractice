@@ -34,7 +34,6 @@ C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Servic
 C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Play.Catalog.Service.runtimeconfig.json
 C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Play.Catalog.Service.runtimeconfig.dev.json
 C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Play.Catalog.Service.dll
-C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\ref\Play.Catalog.Service.dll
 C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Play.Catalog.Service.pdb
 C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -48,7 +47,6 @@ C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Servic
 C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\staticwebassets\Play.Catalog.Service.StaticWebAssets.Manifest.cache
-C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\staticwebassets\Play.Catalog.Service.StaticWebAssets.xml
 C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\scopedcss\bundle\Play.Catalog.Service.styles.css
 C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.RazorTargetAssemblyInfo.cache
 C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.csproj.CopyComplete
@@ -69,3 +67,11 @@ C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Servic
 C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
 C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.sourcelink.json
+C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Play.Catalog.Service.StaticWebAssets.xml
+C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\staticwebassets\Play.Catalog.Service.StaticWebAssets.Pack.cache
+C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\staticwebassets\msbuild.Play.Catalog.Service.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\staticwebassets\msbuild.build.Play.Catalog.Service.props
+C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Play.Catalog.Service.props
+C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Play.Catalog.Service.props
+C:\Users\wisto\Source\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\refint\Play.Catalog.Service.dll

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Components.Web.Virtualization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
@@ -15,6 +16,7 @@ using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Serializers;
 using MongoDB.Driver;
+using Play.Catalog.Service.Entities;
 using Play.Catalog.Service.Repositories;
 using Play.Catalog.Service.Settings;
 
@@ -48,7 +50,11 @@ namespace Play.Catalog.Service
 
             });
 
-            services.AddSingleton<IItemsRepository, ItemsRepository>();
+            services.AddSingleton<IRepository<Item>>(ServiceProvider =>
+            {
+                var database = ServiceProvider.GetService<IMongoDatabase>();
+                return new MongoRepository<Item>(database, "Items");
+            } );
             
             services.AddControllers(options =>
             {
