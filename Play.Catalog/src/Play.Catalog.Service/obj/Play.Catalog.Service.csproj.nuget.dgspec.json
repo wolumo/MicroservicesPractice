@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wisto\\Source\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
+    "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wisto\\Source\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
+    "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wisto\\Source\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectUniqueName": "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
         "projectName": "Play.Catalog.Service",
-        "projectPath": "C:\\Users\\wisto\\Source\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectPath": "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
         "packagesPath": "C:\\Users\\wisto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wisto\\Source\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Service\\obj\\",
+        "outputPath": "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,15 +40,20 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "MongoDB.Driver": {
+            "Play.Common": {
               "target": "Package",
-              "version": "[2.23.1, )"
+              "version": "[1.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -72,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
