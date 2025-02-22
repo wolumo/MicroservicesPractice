@@ -1,3 +1,8 @@
 -Correr instancia de Mongo Db: 
 docker run -d --name mongo -p 27017:27017 -v mongodbdata:/data/db mongo
 
+--Agregar Referencia de Proyectos
+dotnet add references ..\path
+
+--Hacer una clase un Nugget.
+dotnet pack 

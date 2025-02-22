@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Play.Catalog.Contracts</id>
+    <version>1.0.0</version>
+    <authors>Play.Catalog.Contracts</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="933ce8db4e5b658896fb304046a9c11af4a5a4c8" />
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\wisto\OneDrive\Documentos\Cursos\MicroservicesCrashCourse\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Contracts\bin\Release\net5.0\Play.Catalog.Contracts.dll" target="lib\net5.0\Play.Catalog.Contracts.dll" />
+  </files>
+</package>

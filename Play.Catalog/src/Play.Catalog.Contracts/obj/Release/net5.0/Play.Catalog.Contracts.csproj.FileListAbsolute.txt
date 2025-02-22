@@ -1,0 +1,12 @@
+C:\Users\wisto\OneDrive\Documentos\Cursos\MicroservicesCrashCourse\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Contracts\bin\Release\net5.0\Play.Catalog.Contracts.deps.json
+C:\Users\wisto\OneDrive\Documentos\Cursos\MicroservicesCrashCourse\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Contracts\bin\Release\net5.0\Play.Catalog.Contracts.dll
+C:\Users\wisto\OneDrive\Documentos\Cursos\MicroservicesCrashCourse\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Contracts\bin\Release\net5.0\Play.Catalog.Contracts.pdb
+C:\Users\wisto\OneDrive\Documentos\Cursos\MicroservicesCrashCourse\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Contracts\obj\Release\net5.0\Play.Catalog.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wisto\OneDrive\Documentos\Cursos\MicroservicesCrashCourse\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Contracts\obj\Release\net5.0\Play.Catalog.Contracts.AssemblyInfoInputs.cache
+C:\Users\wisto\OneDrive\Documentos\Cursos\MicroservicesCrashCourse\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Contracts\obj\Release\net5.0\Play.Catalog.Contracts.AssemblyInfo.cs
+C:\Users\wisto\OneDrive\Documentos\Cursos\MicroservicesCrashCourse\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Contracts\obj\Release\net5.0\Play.Catalog.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\wisto\OneDrive\Documentos\Cursos\MicroservicesCrashCourse\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Contracts\obj\Release\net5.0\Play.Catalog.Contracts.sourcelink.json
+C:\Users\wisto\OneDrive\Documentos\Cursos\MicroservicesCrashCourse\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Contracts\obj\Release\net5.0\Play.Catalog.Contracts.dll
+C:\Users\wisto\OneDrive\Documentos\Cursos\MicroservicesCrashCourse\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Contracts\obj\Release\net5.0\refint\Play.Catalog.Contracts.dll
+C:\Users\wisto\OneDrive\Documentos\Cursos\MicroservicesCrashCourse\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Contracts\obj\Release\net5.0\Play.Catalog.Contracts.pdb
+C:\Users\wisto\OneDrive\Documentos\Cursos\MicroservicesCrashCourse\MicroservicesPractice\Play.Catalog\src\Play.Catalog.Contracts\obj\Release\net5.0\ref\Play.Catalog.Contracts.dll

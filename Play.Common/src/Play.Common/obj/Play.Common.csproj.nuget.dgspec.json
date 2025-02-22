@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\Microservices crash course\\MicroservicesPractice\\Play.Common\\src\\Play.Common\\Play.Common.csproj": {}
+    "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Common\\src\\Play.Common\\Play.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\Microservices crash course\\MicroservicesPractice\\Play.Common\\src\\Play.Common\\Play.Common.csproj": {
-      "version": "1.0.0",
+    "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Common\\src\\Play.Common\\Play.Common.csproj": {
+      "version": "1.0.1",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\Microservices crash course\\MicroservicesPractice\\Play.Common\\src\\Play.Common\\Play.Common.csproj",
+        "projectUniqueName": "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Common\\src\\Play.Common\\Play.Common.csproj",
         "projectName": "Play.Common",
-        "projectPath": "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\Microservices crash course\\MicroservicesPractice\\Play.Common\\src\\Play.Common\\Play.Common.csproj",
+        "projectPath": "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Common\\src\\Play.Common\\Play.Common.csproj",
         "packagesPath": "C:\\Users\\wisto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\Microservices crash course\\MicroservicesPractice\\Play.Common\\src\\Play.Common\\obj\\",
+        "outputPath": "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Common\\src\\Play.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -27,6 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,6 +51,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.3.6, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[9.0.2, )"
