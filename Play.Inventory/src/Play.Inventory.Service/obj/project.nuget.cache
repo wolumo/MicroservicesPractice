@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CDXOyQClWwg=",
+  "dgSpecHash": "MxVoJa/+FYM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Inventory\\src\\Play.Inventory.Service\\Play.Inventory.Service.csproj",
+  "projectFilePath": "c:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Inventory\\src\\Play.Inventory.Service\\Play.Inventory.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wisto\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\wisto\\.nuget\\packages\\masstransit\\8.3.6\\masstransit.8.3.6.nupkg.sha512",
@@ -34,7 +34,7 @@
     "C:\\Users\\wisto\\.nuget\\packages\\mongodb.bson\\3.2.0\\mongodb.bson.3.2.0.nupkg.sha512",
     "C:\\Users\\wisto\\.nuget\\packages\\mongodb.driver\\3.2.0\\mongodb.driver.3.2.0.nupkg.sha512",
     "C:\\Users\\wisto\\.nuget\\packages\\play.catalog.contracts\\1.0.0\\play.catalog.contracts.1.0.0.nupkg.sha512",
-    "C:\\Users\\wisto\\.nuget\\packages\\play.common\\1.0.1\\play.common.1.0.1.nupkg.sha512",
+    "C:\\Users\\wisto\\.nuget\\packages\\play.common\\1.0.2\\play.common.1.0.2.nupkg.sha512",
     "C:\\Users\\wisto\\.nuget\\packages\\polly\\7.2.4\\polly.7.2.4.nupkg.sha512",
     "C:\\Users\\wisto\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
     "C:\\Users\\wisto\\.nuget\\packages\\rabbitmq.client\\7.0.0\\rabbitmq.client.7.0.0.nupkg.sha512",

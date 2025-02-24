@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {}
+    "c:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {
+    "c:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
+        "projectUniqueName": "c:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
         "projectName": "Play.Catalog.Contracts",
-        "projectPath": "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
+        "projectPath": "c:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
         "packagesPath": "C:\\Users\\wisto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Contracts\\obj\\",
+        "outputPath": "c:\\Users\\wisto\\OneDrive\\Documentos\\Cursos\\MicroservicesCrashCourse\\MicroservicesPractice\\Play.Catalog\\src\\Play.Catalog.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
